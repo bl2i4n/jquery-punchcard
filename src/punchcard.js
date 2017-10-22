@@ -6,7 +6,7 @@
 
     // Create the defaults once
     var pluginName = "punchcard",
-        defaults = {
+        defaults = { 
             days: [
                 "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
             ],
@@ -73,7 +73,7 @@
                     var n = this.settings.data[iDay][iHour] | 0;
 
                     var weekIndex = hourLength * iDay + iHour + offset;
-                    weekIndex = weekIndex > 0 ? weekIndex : weekHours + weekIndex; 
+                    weekIndex = weekIndex > 0 ? weekIndex : weekHours + weekIndex;
                     var day = Math.floor(weekIndex / hourLength) % daysLength;
                     var hour = weekIndex % hourLength;
 
