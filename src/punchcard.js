@@ -6,7 +6,7 @@
 
     // Create the defaults once
     var pluginName = "punchcard",
-        defaults = { 
+        defaults = {
             days: [
                 "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
             ],
@@ -198,5 +198,7 @@
 
         return arr;
     }
+
+module.exports = Plugin;
 
 })(jQuery, window, document);
