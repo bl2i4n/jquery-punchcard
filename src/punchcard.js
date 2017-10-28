@@ -1,4 +1,4 @@
-; (function ($, window, document, undefined) {
+window.onload = (function ($, window, document, undefined) {
 
     "use strict";
     var MAX_SIZE = 10;

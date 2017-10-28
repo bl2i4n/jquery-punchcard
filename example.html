@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title></title>
     <link href="src/punchcard.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="jasmine/lib/jasmine-2.8.0/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="jasmine/lib/jasmine-2.8.0/jasmine.css">
     <style>
         body {
             font-family: Helvetica, Arial, sans-serif;
@@ -12,7 +14,11 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="src/punchcard.js"></script>
-    <script src="spec/TestSpec.js"></script>
+
+    <script type="text/javascript" src="jasmine/lib/jasmine-2.8.0/jasmine.js"></script>
+    <script type="text/javascript" src="jasmine/lib/jasmine-2.8.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="jasmine/lib/jasmine-2.8.0/boot.js"></script>
+
     <script>
         $(document).ready(function () {
             $('#punchcardExample').punchcard({
