@@ -1,3 +1,8 @@
+function helloWorld() {
+  return 'Hello world!';
+}
+
+
 window.onload = (function ($, window, document, undefined) {
 
     "use strict";
@@ -198,7 +203,5 @@ window.onload = (function ($, window, document, undefined) {
 
         return arr;
     }
-
-module.exports = Plugin;
 
 })(jQuery, window, document);
