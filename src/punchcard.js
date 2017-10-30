@@ -1,9 +1,4 @@
-function helloWorld() {
-  return 'Hello world!';
-}
-
-
-window.onload = (function ($, window, document, undefined) {
+; (function ($, window, document, undefined) {
 
     "use strict";
     var MAX_SIZE = 10;
