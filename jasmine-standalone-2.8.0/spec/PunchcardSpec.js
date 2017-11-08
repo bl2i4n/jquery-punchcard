@@ -6,13 +6,12 @@ describe("testing fixtures", function(){
   })
 })
 
-describe("testing punchcard in example.html", function(){
+describe("testing example.html", function(){
   var fixture;
   beforeEach(function(){
-    setUpHTMLFixture();
     loadFixtures('example.html');
-    fixture = $('#punchcardExample');
-    fixture.punchcardExample();
+    fixture = $('#testExample');
+    fixture.testExample();
   })
 
   it('punchcard should be defined', function(){
